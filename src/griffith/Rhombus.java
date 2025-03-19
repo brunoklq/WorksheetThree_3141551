@@ -18,13 +18,13 @@ public class Rhombus extends shape {
 	@Override
 	public double area() {
 	
-		return 0;
+		return (D_1*D_2)/2;
 	}
 
 	@Override
 	public double perimeter() {
 	
-		return 0;
+		return 4*S;
 	}
 
 	

@@ -15,14 +15,15 @@ public class RightAngledTriangle extends shape {
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
-		return 0;
+		
+		return (width*height)/2;
 	}
 
 	@Override
 	public double perimeter() {
-		// TODO Auto-generated method stub
-		return 0;
+
+		double hypo = Math.hypot(width, height);
+		return width + height + hypo;
 	}
 
 	
