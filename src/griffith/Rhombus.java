@@ -12,8 +12,7 @@ public class Rhombus extends shape {
 		this.D_1 = D_1;
 		this.D_2 = D_2;
 		this.S = S;
-		
-	
+
 	}
 
 	@Override
@@ -29,12 +28,36 @@ public class Rhombus extends shape {
 	}
 
 	
-	
 	public String toString() {
 		
 		
 		return super.toString() + "Diagonal: " + D_1 + " and " + D_2 + "Side: " + S;
 	}
+
+	public double getD_1() {
+		return D_1;
+	}
+
+	public void setD_1(double d_1) {
+		D_1 = d_1;
+	}
+
+	public double getD_2() {
+		return D_2;
+	}
+
+	public void setD_2(double d_2) {
+		D_2 = d_2;
+	}
+
+	public double getS() {
+		return S;
+	}
+
+	public void setS(double s) {
+		S = s;
+	}
+	
 	
 	
 	
