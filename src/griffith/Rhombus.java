@@ -31,7 +31,7 @@ public class Rhombus extends shape {
 	public String toString() {
 		
 		
-		return super.toString() + "Diagonal: " + D_1 + " and " + D_2 + "Side: " + S;
+		return super.toString() + " Diagonal: " + D_1 + " and " + D_2 + " Side: " + S;
 	}
 
 	public double getD_1() {
